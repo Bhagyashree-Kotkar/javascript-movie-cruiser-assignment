@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+
+.col {
+	float: left; 
+    width: 50%; 
+}
+
+h2 {
+	text-align:center;
+}
+
+img { 
+	align-self: auto;
+	height: auto;  
+	max-width: 100px;
+	object-fit: cover; 
+}
+
+label {
+	text-align: left;
+}
+
+.list-unstyled {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.row {
+	width: 100%;
+}
+
+.square {
+	height: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100px;
+}
+
+.vertical {
+	border-left: 6px solid blue;
+	min-height: 100%;
+	left: 50%;
+	position: absolute;
+}
